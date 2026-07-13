@@ -1,0 +1,9 @@
+# Ignore local image datasets
+local_testing_data/
+training_data/
+*.zip
+*.tar.gz
+
+# Ignore deep learning model checkpoints
+*.pt
+*.pth

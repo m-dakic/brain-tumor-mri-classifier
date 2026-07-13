@@ -7,18 +7,6 @@ The data utilized in this project is a curated aggregation of brain tumor MRI sl
 * **Dataset Link:** [Brain Tumor MRI Dataset (Kaggle)](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
 * **Licensing & Data Usage:** This dataset is distributed under the **CC BY 4.0 (Creative Commons Attribution 4.0 International)** license. It permits open sharing, adaptation, and commercial utilization, provided appropriate credit and attribution are given to the original creators.
 
-## ⚙️ Dependencies & Installation
-To set up this project locally, clone the repository and install the verified software environment:
-
-```bash
-# Clone the repository
-git clone [https://github.com/m-dakic/brain-tumor-mri-classifier.git](https://github.com/m-dakic/brain-tumor-mri-classifier.git)
-
-# Move into the project directory
-cd brain-tumor-mri-classifier
-
-# Install all required framework packages
-pip install -r requirements.txt
 
 ## 📊 Dataset & Categories
 The model is evaluated on 1,600 completely unseen test images across four balanced classes:
@@ -44,3 +32,16 @@ A detailed audit of the misclassified glioma cases reveals distinct diagnostic b
 
 ## 💡 Deployment Strategy
 Given these specific failure modes, this model is not designed to function as an autonomous diagnostic tool. Instead, it holds exceptional utility as an automated, high-speed **second-opinion triage assistant** to support radiologists—drastically reducing manual screening times while relying on human expertise to catch complex tissue boundaries.
+
+## ⚙️ Dependencies & Installation
+To set up this project locally, clone the repository and install the verified software environment:
+
+```bash
+# Clone the repository
+git clone [https://github.com/m-dakic/brain-tumor-mri-classifier.git](https://github.com/m-dakic/brain-tumor-mri-classifier.git)
+
+# Move into the project directory
+cd brain-tumor-mri-classifier
+
+# Install all required framework packages
+pip install -r requirements.txt
